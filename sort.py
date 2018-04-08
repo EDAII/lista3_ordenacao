@@ -64,7 +64,7 @@ class Sort:
             self.quick_sort(vector, split+1, end)
         else:
             return
-    def count_sort(nums, max_value):
+    def count_sort(self,nums, max_value):
         output = [0 for i in range(max_value+1)]
         count = [0 for i in range(max_value+1)]
 
