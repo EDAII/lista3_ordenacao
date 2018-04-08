@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """Add main method.May use Python 3.6.5."""
 
 from vector import Vector
