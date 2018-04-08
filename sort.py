@@ -1,3 +1,5 @@
+from vector import Vector
+
 class Sort:
     def heapsort(list_item):
         def swap(list_item, min, max ):
@@ -64,8 +66,8 @@ class Sort:
             self.quick_sort(vector, split+1, end)
         else:
             return
-    def count_sort(self,nums, max_value):
-        output = [0 for i in range(max_value+1)]
+    def count_sort(self, nums, max_value):
+        output = [0 for i in range(len(nums))]
         count = [0 for i in range(max_value+1)]
 
         for i in nums:
@@ -79,4 +81,3 @@ class Sort:
             count[nums[i]] -= 1
 
         return output
-
